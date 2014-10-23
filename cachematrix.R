@@ -19,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## checking if the chache contains the computed mean and reads it
 
 cacheSolve <- function(x, ...) {
     m <- x$getmean()
